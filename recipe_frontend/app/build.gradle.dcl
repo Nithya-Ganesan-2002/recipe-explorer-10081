@@ -4,6 +4,11 @@ androidApplication {
     dependencies {
         implementation("org.apache.commons:commons-text:1.11.0")
         implementation(project(":utilities"))
-        testImplementation("junit:junit:4.13.2")
+    }
+
+    testing {
+        dependencies {
+            implementation("junit:junit:4.13.2")
+        }
     }
 }
